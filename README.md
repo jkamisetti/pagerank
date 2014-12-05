@@ -22,7 +22,7 @@ The pagerank.jar file takes 3 command line arguments They are:
 
 1. input directory name
 
-2. output directory starting name (this name will be used to create the directories for all jobs, eg,. If argument is “output” then output for graph properties will be created as “outputGraph”, for Initialize ranks it will be created as “output1” and the remaining “output<number>” will be created for calculating page ranks till they converge and for Top 10 will be created as “outputTop10”.
+2. output directory starting name (example: if you give output directory as "/output", then you will see the output in "/outputGraph" directory).
 
 3. Damping Factor (0.15)
 
